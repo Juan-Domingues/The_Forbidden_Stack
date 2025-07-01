@@ -75,10 +75,19 @@ a:hover {
 
 .team-name a {
     color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
 }
 
 .team-name a:hover {
     color: #00d4ff;
+}
+
+.team-name a:hover .linkedin-icon {
+    transform: scale(1.1);
+    opacity: 1;
+    fill: #0077b5; /* Cor oficial do LinkedIn */
 }
 
 .team-role {
@@ -200,5 +209,16 @@ a:hover {
         font-size: 16px;
         padding: 18px 12px;
     }
+}
+
+/* Estilos para o ícone do LinkedIn */
+.linkedin-icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 6px;
+    transition: all 0.3s ease;
+    vertical-align: middle;
+    opacity: 0.7;
+    fill: currentColor;
 }
 
