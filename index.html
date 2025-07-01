@@ -8,76 +8,587 @@
     <title>Landing Page Exodia</title>
 </head>
 <body>
-    <div class="container">
-        <h1 class="apresentacao__texto__titulo">Conheça o time</h1>
-        <p class="apresentacao__texto_paragrafo">Somos um time de desenvolvedores apaixonados por tecnologia e inovação. Cada membro traz habilidades únicas para criar soluções incríveis.</p>
-        
-        <div class="team-grid">
-            <div class="team-card">
-                <img class="team-photo" src="/Imagens/Time/eu.jpg" alt="Juan Domingues">
-                <h3 class="team-name">
-                    <a href="https://www.linkedin.com/in/juan-pablo-araujo-domingues-43b63722a/" target="_blank">
-                        Juan Domingues
-                        <svg class="linkedin-icon" viewBox="0 0 24 24">
-                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                        </svg>
-                    </a>
-                </h3>
-                <p class="team-role">Desenvolvedor Front-End</p>
+    <!-- Cabeçalho de Navegação -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">⚡ EXODIA ENTERPRISE ⚡</span>
             </div>
-            
-            <div class="team-card">
-                <img class="team-photo" src="/Imagens/Time/gabriel.jpg" alt="Gabriel Teixeira">
-                <h3 class="team-name">
-                    <a href="https://www.linkedin.com/in/gabriel-teixeira12/" target="_blank">
-                        Gabriel Teixeira
-                        <svg class="linkedin-icon" viewBox="0 0 24 24">
-                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                        </svg>
-                    </a>
-                </h3>
-                <p class="team-role">Desenvolvedor Back-End</p>
-            </div>
-            
-            <div class="team-card">
-                <img class="team-photo" src="/Imagens/Time/gk.jpg" alt="Gabriel Freitas">
-                <h3 class="team-name">
-                    <a href="https://www.linkedin.com/in/gkfreitas/" target="_blank">
-                        Gabriel Freitas
-                        <svg class="linkedin-icon" viewBox="0 0 24 24">
-                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                        </svg>
-                    </a>
-                </h3>
-                <p class="team-role">Desenvolvedor Full-Stack</p>
-            </div>
-            
-            <div class="team-card">
-                <img class="team-photo" src="/Imagens/Time/nicolas.jpg" alt="Nicolas Vasconcelos">
-                <h3 class="team-name">
-                    <a href="https://www.linkedin.com/in/n%C3%ADcolas-vasconcelos-93336a232/" target="_blank">
-                        Nicolas Vasconcelos
-                        <svg class="linkedin-icon" viewBox="0 0 24 24">
-                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                        </svg>
-                    </a>
-                </h3>
-                <p class="team-role">Comercial</p>
-            </div>
-            
-            <div class="team-card">
-                <img class="team-photo" src="/Imagens/Time/vitu.jpg" alt="Victor Barcelos">
-                <h3 class="team-name">
-                    <a href="https://www.linkedin.com/in/barcelosvs/" target="_blank">
-                        Victor Barcelos
-                        <svg class="linkedin-icon" viewBox="0 0 24 24">
-                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                        </svg>
-                    </a>
-                </h3>
-                <p class="team-role">Desenvolvedor Back-End</p>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#team" class="nav-link">🔮 Equipe</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">⚔️ Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">📞 Contato</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
         </div>
+    </nav>
+
+    <div class="container">
+        <!-- Seção da Equipe -->
+        <section id="team" class="team-section">
+            <h1 class="apresentacao__texto__titulo">⚡ Conheça o Time Exodia ⚡</h1>
+            <p class="apresentacao__texto_paragrafo">🔮 Somos um time de desenvolvedores místicos apaixonados por tecnologia e inovação. Cada membro possui habilidades únicas e poderosas para criar soluções lendárias. Unidos, formamos o poder definitivo do desenvolvimento! 🔮</p>
+            
+            <div class="team-grid">
+                <div class="team-card" data-member="juan">
+                    <div class="card-front">
+                        <img class="team-photo" src="/Imagens/Time/eu.jpg" alt="Juan Domingues">
+                        <h3 class="team-name">
+                            Juan Domingues
+                            <svg class="linkedin-icon" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </h3>
+                        <p class="team-role">⚔️ Mago Front-End</p>
+                        <div class="expand-hint">Clique para revelar detalhes</div>
+                    </div>
+                    
+                    <div class="card-expanded">
+                        <div class="close-btn">✕</div>
+                        <div class="expanded-header">
+                            <img class="expanded-photo" src="/Imagens/Time/eu.jpg" alt="Juan Domingues">
+                            <div class="expanded-info">
+                                <h2 class="expanded-name">⚔️ Juan Domingues</h2>
+                                <p class="expanded-title">Mago Front-End</p>
+                                <div class="expanded-level">✦ Nível 87 ✦</div>
+                            </div>
+                        </div>
+                        <div class="expanded-body">
+                            <div class="skills-section">
+                                <h3>🔮 Habilidades Místicas</h3>
+                                <div class="skills-grid">
+                                    <div class="skill-item">
+                                        <span class="skill-name">React</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-skill="95"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span class="skill-name">JavaScript</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-skill="90"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span class="skill-name">CSS/SASS</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-skill="92"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span class="skill-name">TypeScript</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-skill="85"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bio-section">
+                                <h3>📜 Lenda do Duelista</h3>
+                                <p>Mestre das artes front-end, Juan possui o poder de dar vida às interfaces mais complexas. Com anos de experiência nas magias do React e JavaScript, ele transforma designs em experiências interativas memoráveis.</p>
+                            </div>
+                            <div class="stats-section">
+                                <h3>⚡ Atributos de Combate</h3>
+                                <div class="stats-grid">
+                                    <div class="stat-item">
+                                        <span class="stat-label">ATK</span>
+                                        <span class="stat-value">2800</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">DEF</span>
+                                        <span class="stat-value">2400</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">INT</span>
+                                        <span class="stat-value">3000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="expanded-footer">
+                            <a href="https://www.linkedin.com/in/juan-pablo-araujo-domingues-43b63722a/" target="_blank" class="linkedin-btn">
+                                🔗 Conectar no LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-card" data-member="gabriel-t">
+                    <div class="card-front">
+                        <img class="team-photo" src="/Imagens/Time/gabriel.jpg" alt="Gabriel Teixeira">
+                        <h3 class="team-name">
+                            Gabriel Teixeira
+                            <svg class="linkedin-icon" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </h3>
+                        <p class="team-role">🛡️ Guardião Back-End</p>
+                        <div class="expand-hint">Clique para revelar detalhes</div>
+                    </div>
+                    
+                    <div class="card-expanded">
+                        <div class="close-btn">✕</div>
+                        <div class="expanded-header">
+                            <img class="expanded-photo" src="/Imagens/Time/gabriel.jpg" alt="Gabriel Teixeira">
+                            <div class="expanded-info">
+                                <h2 class="expanded-name">🛡️ Gabriel Teixeira</h2>
+                                <p class="expanded-title">Guardião Back-End</p>
+                                <div class="expanded-level">✦ Nível 84 ✦</div>
+                            </div>
+                        </div>
+                        <div class="expanded-body">
+                            <div class="skills-section">
+                                <h3>🔮 Habilidades Místicas</h3>
+                                <div class="skills-grid">
+                                    <div class="skill-item">
+                                        <span class="skill-name">Node.js</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-skill="88"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span class="skill-name">Python</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-skill="90"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span class="skill-name">MongoDB</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-skill="85"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span class="skill-name">AWS</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-skill="80"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bio-section">
+                                <h3>📜 Lenda do Duelista</h3>
+                                <p>Guardião dos servidores e protetor dos dados, Gabriel domina as artes back-end com maestria. Especialista em arquiteturas escaláveis e segurança, ele constrói as fundações sólidas que sustentam as aplicações mais robustas.</p>
+                            </div>
+                            <div class="stats-section">
+                                <h3>⚡ Atributos de Combate</h3>
+                                <div class="stats-grid">
+                                    <div class="stat-item">
+                                        <span class="stat-label">ATK</span>
+                                        <span class="stat-value">2600</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">DEF</span>
+                                        <span class="stat-value">2900</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">INT</span>
+                                        <span class="stat-value">2700</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="expanded-footer">
+                            <a href="https://www.linkedin.com/in/gabriel-teixeira12/" target="_blank" class="linkedin-btn">
+                                🔗 Conectar no LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-card" data-member="gabriel-f">
+                    <div class="card-front">
+                        <img class="team-photo" src="/Imagens/Time/gk.jpg" alt="Gabriel Freitas">
+                        <h3 class="team-name">
+                            Gabriel Freitas
+                            <svg class="linkedin-icon" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </h3>
+                        <p class="team-role">🌟 Arquimago Full-Stack</p>
+                        <div class="expand-hint">Clique para revelar detalhes</div>
+                    </div>
+                    
+                    <div class="card-expanded">
+                        <div class="close-btn">✕</div>
+                        <div class="expanded-header">
+                            <img class="expanded-photo" src="/Imagens/Time/gk.jpg" alt="Gabriel Freitas">
+                            <div class="expanded-info">
+                                <h2 class="expanded-name">🌟 Gabriel Freitas</h2>
+                                <p class="expanded-title">Arquimago Full-Stack</p>
+                                <div class="expanded-level">✦ Nível 92 ✦</div>
+                            </div>
+                        </div>
+                        <div class="expanded-body">
+                            <div class="skills-section">
+                                <h3>🔮 Habilidades Místicas</h3>
+                                <div class="skills-grid">
+                                    <div class="skill-item">
+                                        <span class="skill-name">React</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-skill="93"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span class="skill-name">Node.js</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-skill="89"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span class="skill-name">DevOps</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-skill="87"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span class="skill-name">Database</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-skill="91"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bio-section">
+                                <h3>📜 Lenda do Duelista</h3>
+                                <p>O lendário Arquimago que domina tanto o front quanto o back-end. Gabriel possui o raro dom de transitar entre mundos, criando soluções completas do zero. Sua visão holística permite arquitetar sistemas complexos.</p>
+                            </div>
+                            <div class="stats-section">
+                                <h3>⚡ Atributos de Combate</h3>
+                                <div class="stats-grid">
+                                    <div class="stat-item">
+                                        <span class="stat-label">ATK</span>
+                                        <span class="stat-value">3100</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">DEF</span>
+                                        <span class="stat-value">2800</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">INT</span>
+                                        <span class="stat-value">3200</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="expanded-footer">
+                            <a href="https://www.linkedin.com/in/gkfreitas/" target="_blank" class="linkedin-btn">
+                                🔗 Conectar no LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-card" data-member="nicolas">
+                    <div class="card-front">
+                        <img class="team-photo" src="/Imagens/Time/nicolas.jpg" alt="Nicolas Vasconcelos">
+                        <h3 class="team-name">
+                            Nicolas Vasconcelos
+                            <svg class="linkedin-icon" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </h3>
+                        <p class="team-role">💼 Estrategista Comercial</p>
+                        <div class="expand-hint">Clique para revelar detalhes</div>
+                    </div>
+                    
+                    <div class="card-expanded">
+                        <div class="close-btn">✕</div>
+                        <div class="expanded-header">
+                            <img class="expanded-photo" src="/Imagens/Time/nicolas.jpg" alt="Nicolas Vasconcelos">
+                            <div class="expanded-info">
+                                <h2 class="expanded-name">💼 Nicolas Vasconcelos</h2>
+                                <p class="expanded-title">Estrategista Comercial</p>
+                                <div class="expanded-level">✦ Nível 89 ✦</div>
+                            </div>
+                        </div>
+                        <div class="expanded-body">
+                            <div class="skills-section">
+                                <h3>🔮 Habilidades Místicas</h3>
+                                <div class="skills-grid">
+                                    <div class="skill-item">
+                                        <span class="skill-name">Negociação</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-skill="95"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span class="skill-name">Estratégia</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-skill="92"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span class="skill-name">CRM</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-skill="88"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span class="skill-name">Analytics</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-skill="85"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bio-section">
+                                <h3>� Lenda do Duelista</h3>
+                                <p>Mestre estrategista e negociador nato, Nicolas possui o dom raro de transformar oportunidades em parcerias duradouras. Com sua visão comercial aguçada, ele constrói pontes entre a tecnologia e o mercado.</p>
+                            </div>
+                            <div class="stats-section">
+                                <h3>⚡ Atributos de Combate</h3>
+                                <div class="stats-grid">
+                                    <div class="stat-item">
+                                        <span class="stat-label">ATK</span>
+                                        <span class="stat-value">2700</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">DEF</span>
+                                        <span class="stat-value">2300</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">INT</span>
+                                        <span class="stat-value">2900</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="expanded-footer">
+                            <a href="https://www.linkedin.com/in/n%C3%ADcolas-vasconcelos-93336a232/" target="_blank" class="linkedin-btn">
+                                🔗 Conectar no LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-card" data-member="victor">
+                    <div class="card-front">
+                        <img class="team-photo" src="/Imagens/Time/vitu.jpg" alt="Victor Barcelos">
+                        <h3 class="team-name">
+                            Victor Barcelos
+                            <svg class="linkedin-icon" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </h3>
+                        <p class="team-role">🔧 Alquimista Back-End</p>
+                        <div class="expand-hint">Clique para revelar detalhes</div>
+                    </div>
+                    
+                    <div class="card-expanded">
+                        <div class="close-btn">✕</div>
+                        <div class="expanded-header">
+                            <img class="expanded-photo" src="/Imagens/Time/vitu.jpg" alt="Victor Barcelos">
+                            <div class="expanded-info">
+                                <h2 class="expanded-name">🔧 Victor Barcelos</h2>
+                                <p class="expanded-title">Alquimista Back-End</p>
+                                <div class="expanded-level">✦ Nível 86 ✦</div>
+                            </div>
+                        </div>
+                        <div class="expanded-body">
+                            <div class="skills-section">
+                                <h3>🔮 Habilidades Místicas</h3>
+                                <div class="skills-grid">
+                                    <div class="skill-item">
+                                        <span class="skill-name">PHP</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-skill="92"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span class="skill-name">Laravel</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-skill="89"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span class="skill-name">MySQL</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-skill="87"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span class="skill-name">API Design</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-skill="90"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bio-section">
+                                <h3>� Lenda do Duelista</h3>
+                                <p>Alquimista das linguagens back-end, Victor transforma requisitos complexos em códigos elegantes e eficientes. Especialista em PHP e Laravel, ele constrói APIs robustas e sistemas que operam com precisão cirúrgica.</p>
+                            </div>
+                            <div class="stats-section">
+                                <h3>⚡ Atributos de Combate</h3>
+                                <div class="stats-grid">
+                                    <div class="stat-item">
+                                        <span class="stat-label">ATK</span>
+                                        <span class="stat-value">2750</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">DEF</span>
+                                        <span class="stat-value">2650</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">INT</span>
+                                        <span class="stat-value">2800</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="expanded-footer">
+                            <a href="https://www.linkedin.com/in/barcelosvs/" target="_blank" class="linkedin-btn">
+                                🔗 Conectar no LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
+
+    <!-- Seção de Projetos -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">⚔️ Projetos da Enterprise ⚔️</h2>
+            <p class="section-subtitle">Nossos desafios conquistados com maestria mística</p>
+            
+            <div class="projects-grid">
+                <!-- Projeto 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/350x200/1a1a2e/eee?text=Projeto+1" alt="Projeto 1">
+                        <div class="project-overlay">
+                            <span class="view-project">Ver Projeto</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">🌟 Sistema de Gestão Mística</h3>
+                        <p class="project-description">
+                            Um sistema completo de gerenciamento com poderes ancestrais, 
+                            desenvolvido para trazer ordem ao caos empresarial.
+                        </p>
+                        <div class="project-skills">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">Socket.io</span>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://github.com/exodia-enterprise/projeto1" target="_blank" class="github-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                                GitHub
+                            </a>
+                            <span class="project-status">✨ Completo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/350x200/2d1b69/eee?text=Projeto+2" alt="Projeto 2">
+                        <div class="project-overlay">
+                            <span class="view-project">Ver Projeto</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">🔥 Plataforma de E-commerce Épica</h3>
+                        <p class="project-description">
+                            Uma experiência de compra transcendental que combina magia antiga 
+                            com tecnologia moderna para conquistar todos os mercados.
+                        </p>
+                        <div class="project-skills">
+                            <span class="skill-tag">Vue.js</span>
+                            <span class="skill-tag">Laravel</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">Redis</span>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://github.com/exodia-enterprise/projeto2" target="_blank" class="github-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                                GitHub
+                            </a>
+                            <span class="project-status">🚀 Em Desenvolvimento</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/350x200/0f3460/eee?text=Projeto+3" alt="Projeto 3">
+                        <div class="project-overlay">
+                            <span class="view-project">Ver Projeto</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">🌙 App Mobile dos Segredos</h3>
+                        <p class="project-description">
+                            Aplicativo mobile que desvenda os mistérios da produtividade, 
+                            com recursos que transformam tarefas mundanas em conquistas épicas.
+                        </p>
+                        <div class="project-skills">
+                            <span class="skill-tag">React Native</span>
+                            <span class="skill-tag">Firebase</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">GraphQL</span>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://github.com/exodia-enterprise/projeto3" target="_blank" class="github-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                                GitHub
+                            </a>
+                            <span class="project-status">⭐ Planejamento</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto customizável adicional -->
+                <div class="project-card project-add">
+                    <div class="project-add-content">
+                        <div class="add-icon">➕</div>
+                        <h3>Adicionar Novo Projeto</h3>
+                        <p>Pronto para sua próxima conquista épica?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">📞 Entre em Contato</h2>
+            <p class="contact-text">
+                Pronto para iniciar sua jornada épica conosco? <br>
+                Entre em contato e desperte o poder da Exodia Enterprise!
+            </p>
+            <div class="contact-info">
+                <a href="mailto:contato@exodiaenterprise.com" class="contact-link">
+                    ✉️ contato@exodiaenterprise.com
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script_new.js"></script>
 </body>
 </html>
